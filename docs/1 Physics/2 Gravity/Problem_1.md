@@ -95,37 +95,10 @@ This shows that the square of the orbital period \( T^2 \) is directly proportio
 
 A computational model can simulate circular orbits and verify the relationship \( T^2 \propto r^3 \). Below is a Python script that visualizes circular orbits and demonstrates this relationship.
 
-```python
-import numpy as np
-import matplotlib.pyplot as plt
-
-# Constants
-G = 6.67430e-11  # Gravitational constant, m^3 kg^-1 s^-2
-M = 1.989e30     # Mass of the Sun, kg (approx)
-T = np.linspace(1e3, 2e6, 100)  # Orbital periods (in seconds)
-r = ((G * M * T**2) / (4 * np.pi**2))**(1/3)  # Radius based on Kepler's Third Law
-
-# Create a circular orbit visualization
-fig, ax = plt.subplots(figsize=(10, 10))
-for radius in r:
-    theta = np.linspace(0, 2 * np.pi, 100)
-    x = radius * np.cos(theta)
-    y = radius * np.sin(theta)
-    ax.plot(x, y, label=f'r = {radius:.2e} m')
-
-ax.set_aspect('equal', adjustable='box')
-ax.set_title('Circular Orbit Visualization')
-ax.set_xlabel('X Position (m)')
-ax.set_ylabel('Y Position (m)')
-ax.axhline(0, color='k', lw=0.5, ls='--')
-ax.axvline(0, color='k', lw=0.5, ls='--')
-plt.grid()
-plt.legend(loc='upper right')
-plt.show()
-```
 
 ## Graphical Representations
 
+![alt text](image.png)
 The above script will output a visual representation of circular orbits for different orbital radii corresponding to their periods derived from Kepler's Third Law. You can vary the parameters such as the mass of the central body or simulate different planets based on their real orbital characteristics.
 
 ## Extension to Elliptical Orbits
