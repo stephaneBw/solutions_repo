@@ -100,51 +100,9 @@ The forced damped pendulum model applies in various real-world scenarios:
 
 The following Python script simulates the motion of a forced damped pendulum and visualizes its behavior under various conditions.
 
-```python
-import numpy as np
-import matplotlib.pyplot as plt
-from scipy.integrate import solve_ivp
-
-# Parameters
-g = 9.81  # gravity (m/s^2)
-L = 1.0   # length of pendulum (m)
-beta = 0.1  # damping coefficient
-A = 1.0    # amplitude of driving force
-omega = 1.5  # driving frequency (rad/s)
-
-# Define the differential equations
-def pendulum_eq(t, y):
-    theta, omega_theta = y
-    dtheta_dt = omega_theta
-    domega_dt = - (g / L) * np.sin(theta) - beta * omega_theta + A * np.cos(omega*t)
-    return [dtheta_dt, domega_dt]
-
-# Time span for the simulation
-t_span = (0, 20)
-y0 = [0.1, 0]  # initial conditions: small angle and zero initial velocity
-t_eval = np.linspace(t_span[0], t_span[1], 1000)
-
-# Solve the system
-solution = solve_ivp(pendulum_eq, t_span, y0, t_eval=t_eval)
-
-# Plot results
-plt.figure(figsize=(10, 5))
-plt.plot(solution.t, solution.y[0], label='Angular Displacement (θ)')
-plt.title('Forced Damped Pendulum Dynamics')
-plt.xlabel('Time (s)')
-plt.ylabel('Angular Displacement (rad)')
-plt.axhline(0, color='black', lw=0.5, ls='--')
-plt.legend()
-plt.grid()
-plt.show()
-```
-
 ### Graphical Representations
 
-Use the simulation to visualize and plot the motion under various conditions. Example outputs to include:
-- Angular displacement versus time for different damping coefficients.
-- Amplitude versus driving frequency, highlighting resonance.
-- Phase diagrams to illustrate the behavior over time.
+![alt text](image-1.png)
 
 ### Limitations and Extensions
 
