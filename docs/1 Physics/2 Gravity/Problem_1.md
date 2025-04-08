@@ -99,7 +99,7 @@ A computational model can simulate circular orbits and verify the relationship \
 ## Graphical Representations
 
 ![alt text](image.png)
-The above script will output a visual representation of circular orbits for different orbital radii corresponding to their periods derived from Kepler's Third Law. You can vary the parameters such as the mass of the central body or simulate different planets based on their real orbital characteristics.
+Visual representation of circular orbits for different orbital radii corresponding to their periods derived from Kepler's Third Law. 
 
 ## Extension to Elliptical Orbits
 
