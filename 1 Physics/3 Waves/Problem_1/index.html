@@ -172,6 +172,52 @@
 <div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main">
 <div class="section" itemprop="articleBody">
 <h1 id="problem-1">Problem 1</h1>
+<h1 id="interference-patterns-on-a-water-surface">Interference Patterns on a Water Surface</h1>
+<h2 id="motivation">Motivation</h2>
+<p>Interference patterns occur when waves from different sources overlap, resulting in unique patterns on the surface of water. This phenomenon can vividly illustrate how waves combine, either reinforcing one another or canceling each other out. Studying these patterns allows us to visually understand wave behavior and explore fundamental concepts such as wave phase relationships and the impact of multiple sources. This task provides an engaging and hands-on approach to learning about wave interactions and their real-world applications.</p>
+<h2 id="problem-statement">Problem Statement</h2>
+<p>In this task, we will analyze the interference patterns formed on a water surface due to the superposition of waves emitted from point sources located at the vertices of a chosen regular polygon. </p>
+<h3 id="steps-to-follow">Steps to Follow</h3>
+<ol>
+<li><strong>Select a Regular Polygon</strong>: We will start with a square as our regular polygon.</li>
+<li><strong>Position the Sources</strong>: Place point wave sources at the vertices of the square.</li>
+<li><strong>Wave Equations</strong>: Write down the equations describing the waves emitted from each source.</li>
+<li><strong>Superposition of Waves</strong>: Apply the principle of superposition to sum the wave displacements across the water surface.</li>
+<li><strong>Analyze Interference Patterns</strong>: Evaluate the displacement function <span class="arithmatex">\( D(\mathbf{r}, t) \)</span> as a function of position and time, identifying regions of constructive and destructive interference.</li>
+<li><strong>Visualization</strong>: Present graphical representations of the interference patterns.</li>
+</ol>
+<h3 id="mathematical-formulation">Mathematical Formulation</h3>
+<p>Let’s represent the wave emitted from each point source using the Single Disturbance equation. The displacement at position <span class="arithmatex">\( \mathbf{r} \)</span> and time <span class="arithmatex">\( t \)</span> from a point source can be described as:</p>
+<div class="arithmatex">\[
+D(\mathbf{r}, t) = A \cos(k \cdot d + \omega t + \phi)
+\]</div>
+<p>where:
+- <span class="arithmatex">\( D(\mathbf{r}, t) \)</span> = displacement at position <span class="arithmatex">\( \mathbf{r} \)</span> and time <span class="arithmatex">\( t \)</span>
+- <span class="arithmatex">\( A \)</span> = amplitude of the wave
+- <span class="arithmatex">\( k = \frac{2\pi}{\lambda} \)</span> = wave number, related to the wavelength <span class="arithmatex">\( \lambda \)</span>
+- <span class="arithmatex">\( \omega = 2\pi f \)</span> = angular frequency, related to the frequency <span class="arithmatex">\( f \)</span>
+- <span class="arithmatex">\( d \)</span> = distance from the source to the observation point <span class="arithmatex">\( \mathbf{r} \)</span>
+- <span class="arithmatex">\( \phi \)</span> = initial phase of the wave</p>
+<h3 id="superposition-of-waves">Superposition of Waves</h3>
+<p>For a regular polygon with <span class="arithmatex">\( N \)</span> vertices, the total displacement at point <span class="arithmatex">\( \mathbf{r} \)</span> at time <span class="arithmatex">\( t \)</span> can be expressed as:</p>
+<div class="arithmatex">\[
+D(\mathbf{r}, t) = \sum_{i=1}^{N} D_i(\mathbf{r}, t) = \sum_{i=1}^{N} A \cos(k \cdot d_i + \omega t + \phi_i)
+\]</div>
+<p>where <span class="arithmatex">\( D_i \)</span> is the contribution from the <span class="arithmatex">\( i \)</span>-th source.</p>
+<h2 id="analysis-of-interference-patterns">Analysis of Interference Patterns</h2>
+<ol>
+<li>
+<p><strong>Constructive Interference</strong>: This occurs where the waves from the sources align in phase, resulting in enhanced wave displacement. In the visualization, these regions may appear as areas of bright color, indicating maximum amplitudes.</p>
+</li>
+<li>
+<p><strong>Destructive Interference</strong>: This occurs where waves are out of phase (180 degrees apart), leading to cancellation of wave displacements. These regions will appear darker or neutral in the visualization.</p>
+</li>
+</ol>
+<h2 id="graphical-representations">Graphical Representations</h2>
+<p><img alt="alt text" src="../image.png"/></p>
+<p>Contour plot illustrating the interference patterns formed by the waves emanating from the vertices of a square. The plot shows intricate patterns where the interference results in both constructive and destructive overlaps.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Through this analysis and simulation, we have visualized the interference patterns resulting from multiple coherent wave sources arranged in a regular polygon. This exercise enhances our understanding of wave behavior and the principles of superposition, demonstrating how waves interact to create complex patterns in two-dimensional spaces. The techniques used here can be extended to more complex shapes and scenarios, providing a robust framework for exploring wave phenomena in various contexts.</p>
 </div>
 </div><footer>
 <div aria-label="Footer Navigation" class="rst-footer-buttons" role="navigation">
