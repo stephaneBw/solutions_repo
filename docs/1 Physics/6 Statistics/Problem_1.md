@@ -59,5 +59,3 @@ The Central Limit Theorem (CLT) is a cornerstone of probability and statistics, 
 ## Example Python Code to Simulate CLT
 
 ![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-2.png)
