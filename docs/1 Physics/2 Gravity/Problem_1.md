@@ -80,7 +80,7 @@ This shows that the square of the orbital period \( T^2 \) is directly proportio
 1. **Mass Determination**: Kepler's Third Law allows astronomers to calculate the mass of a celestial body (like the Sun) by observing the orbits of its satellites. If the orbital parameters (radius and period) of a satellite are known, the mass of the central body can be found using:
 
    \[
-      M = \frac{4 \pi^2 * r^3}{G T^2}
+   M = \frac{4 \pi^2 * r^3}{G T^2}
    \]
 
 
