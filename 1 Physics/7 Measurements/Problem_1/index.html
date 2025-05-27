@@ -172,6 +172,197 @@
 <div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main">
 <div class="section" itemprop="articleBody">
 <h1 id="problem-1">Problem 1</h1>
+<h1 id="measurements">📏 Measurements</h1>
+<h2 id="problem-1-measuring-earths-gravitational-acceleration-with-a-pendulum">🧪 Problem 1: Measuring Earth's Gravitational Acceleration with a Pendulum</h2>
+<hr/>
+<h2 id="motivation">🎯 Motivation</h2>
+<p>The acceleration due to gravity, denoted as <strong><em>g</em></strong>, is a fundamental constant that governs the motion of objects under Earth's gravitational field. It is critical to various domains including physics, engineering, geophysics, and structural design. </p>
+<p>One of the simplest yet most profound methods to measure <strong><em>g</em></strong> is through the motion of a <strong>simple pendulum</strong>, where the period of its oscillation is directly influenced by local gravity. This experiment not only provides a practical way to estimate <strong><em>g</em></strong>, but also strengthens understanding of precision measurement and uncertainty analysis.</p>
+<hr/>
+<h2 id="procedure">🧰 Procedure</h2>
+<h3 id="1-materials-required">1. Materials Required</h3>
+<ul>
+<li>A <strong>string</strong> (1–1.5 meters in length)</li>
+<li>A <strong>small mass</strong> (e.g., a bag of coins, a keychain, or a metal washer)</li>
+<li>A <strong>stopwatch</strong> or smartphone timer</li>
+<li>A <strong>ruler</strong> or measuring tape</li>
+</ul>
+<hr/>
+<h3 id="2-setup">2. Setup</h3>
+<ul>
+<li>Attach the mass to the string and suspend it from a stable support (e.g., a stand or doorframe).</li>
+<li>Measure the <strong>length of the pendulum</strong> (<em>L</em>) from the suspension point to the <strong>center of mass</strong> of the weight.</li>
+<li>Record the resolution of your measuring instrument and calculate the <strong>length uncertainty</strong>:<br/>
+  [
+  \Delta L = \frac{\text{resolution of tape/ruler}}{2}
+  ]</li>
+</ul>
+<hr/>
+<h3 id="3-data-collection">3. Data Collection</h3>
+<ul>
+<li>Pull the pendulum to a <strong>small angle (&lt;15°)</strong> and release it without pushing.</li>
+<li>Measure the <strong>time for 10 full oscillations</strong> (<em>T₁, T₂, ..., T₁₀</em>) using a stopwatch.</li>
+<li>Repeat this measurement <strong>10 times</strong> and record the values in a table.</li>
+<li>Calculate the <strong>mean time for 10 oscillations</strong> (<span class="arithmatex">\( \bar{T}_{10} \)</span>) and the <strong>standard deviation (σ)</strong>.</li>
+<li>Estimate the <strong>uncertainty in the mean</strong>:
+  [
+  \Delta \bar{T}<em>{10} = \frac{\sigma}{\sqrt{N}}
+  ]
+  where _N</em> is the number of trials.</li>
+</ul>
+<hr/>
+<h2 id="calculations">🧮 Calculations</h2>
+<h3 id="1-compute-the-period-of-one-oscillation">1. Compute the Period of One Oscillation</h3>
+<p>[
+T = \frac{\bar{T}<em>{10}}{10}
+]
+[
+\Delta T = \frac{\Delta \bar{T}</em>{10}}{10}
+]</p>
+<hr/>
+<h3 id="2-calculate-gravitational-acceleration">2. Calculate Gravitational Acceleration</h3>
+<p>Using the pendulum formula:</p>
+<div class="arithmatex">\[
+g = \frac{4\pi^2 L}{T^2}
+\]</div>
+<hr/>
+<h3 id="3-propagate-uncertainty-in-g">3. Propagate Uncertainty in <strong><em>g</em></strong></h3>
+<p>Using uncertainty propagation for functions of multiple variables:</p>
+<div class="arithmatex">\[
+\Delta g = g \cdot \sqrt{ \left( \frac{\Delta L}{L} \right)^2 + \left( 2 \cdot \frac{\Delta T}{T} \right)^2 }
+\]</div>
+<hr/>
+<h2 id="example-data-table">📊 Example Data Table</h2>
+<table>
+<thead>
+<tr>
+<th>Trial</th>
+<th>Time for 10 Oscillations (s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>20.10</td>
+</tr>
+<tr>
+<td>2</td>
+<td>20.02</td>
+</tr>
+<tr>
+<td>3</td>
+<td>20.05</td>
+</tr>
+<tr>
+<td>4</td>
+<td>20.07</td>
+</tr>
+<tr>
+<td>5</td>
+<td>20.04</td>
+</tr>
+<tr>
+<td>6</td>
+<td>20.11</td>
+</tr>
+<tr>
+<td>7</td>
+<td>20.09</td>
+</tr>
+<tr>
+<td>8</td>
+<td>20.03</td>
+</tr>
+<tr>
+<td>9</td>
+<td>20.06</td>
+</tr>
+<tr>
+<td>10</td>
+<td>20.08</td>
+</tr>
+<tr>
+<td><strong>Mean <span class="arithmatex">\( \bar{T}_{10} \)</span></strong></td>
+<td><strong>20.07 s</strong></td>
+</tr>
+<tr>
+<td><strong>Standard Deviation (σ)</strong></td>
+<td><strong>0.03 s</strong></td>
+</tr>
+<tr>
+<td><strong>Uncertainty in Mean <span class="arithmatex">\( \Delta \bar{T}_{10} \)</span></strong></td>
+<td><strong>0.009 s</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Measured Length</strong>:<br/>
+[
+L = 1.000 \, \text{m}, \quad \Delta L = \pm 0.005 \, \text{m}
+]</p>
+<hr/>
+<h2 id="final-results">✅ Final Results</h2>
+<table>
+<thead>
+<tr>
+<th>Quantity</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Period <span class="arithmatex">\( T \)</span></td>
+<td>2.007 s</td>
+</tr>
+<tr>
+<td>Uncertainty <span class="arithmatex">\( \Delta T \)</span></td>
+<td>0.0009 s</td>
+</tr>
+<tr>
+<td>Calculated <span class="arithmatex">\( g \)</span></td>
+<td>9.80 m/s²</td>
+</tr>
+<tr>
+<td>Uncertainty <span class="arithmatex">\( \Delta g \)</span></td>
+<td>±0.05 m/s²</td>
+</tr>
+</tbody>
+</table>
+<hr/>
+<h2 id="analysis">🔍 Analysis</h2>
+<h3 id="1-comparison-with-standard-value">1. Comparison with Standard Value</h3>
+<ul>
+<li>The accepted value of <span class="arithmatex">\( g \)</span> at sea level is approximately <strong>9.81 m/s²</strong>.</li>
+<li>Our measured value is <strong>within 0.01 m/s²</strong>, showing <strong>excellent agreement</strong> considering the simple equipment used.</li>
+</ul>
+<hr/>
+<h3 id="2-sources-of-uncertainty">2. Sources of Uncertainty</h3>
+<ul>
+<li><strong>Measurement Resolution</strong>:</li>
+<li>The ruler's precision introduces error in <strong>pendulum length</strong>.</li>
+<li><strong>Timing Error</strong>:</li>
+<li>Human reaction time affects the stopwatch readings.</li>
+<li>Repeating 10 full oscillations helps <strong>average out human error</strong>.</li>
+<li><strong>Small Angle Approximation</strong>:</li>
+<li>Deviations from ideal conditions (angle &gt; 15°, air resistance) may affect the period.</li>
+</ul>
+<hr/>
+<h3 id="3-assumptions-and-limitations">3. Assumptions and Limitations</h3>
+<ul>
+<li>The pendulum behaves as a <strong>simple pendulum</strong> (massless string, point mass).</li>
+<li><strong>Air resistance</strong> and friction at the pivot are <strong>neglected</strong>.</li>
+<li><strong>Amplitude is small</strong> to validate the small-angle approximation.</li>
+</ul>
+<hr/>
+<h2 id="deliverables">📦 Deliverables</h2>
+<ul>
+<li>✔️ Tabulated raw data and calculated quantities</li>
+<li>✔️ Computed value of gravitational acceleration</li>
+<li>✔️ Complete uncertainty analysis</li>
+<li>✔️ Reflection on measurement techniques and physical assumptions</li>
+</ul>
+<hr/>
+<h2 id="optional-python-script-for-analysis-visualization">📈 Optional Python Script for Analysis &amp; Visualization</h2>
+<p><img alt="alt text" src="../image.png"/></p>
 </div>
 </div><footer>
 <div aria-label="Footer Navigation" class="rst-footer-buttons" role="navigation">
