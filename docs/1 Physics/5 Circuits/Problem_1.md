@@ -31,34 +31,6 @@ The goal is to reduce a resistor network graph to a single equivalent resistance
 
    * Apply series and parallel rules until only two nodes remain with one edge.
 
-### 🤧 Pseudocode
-
-```pseudo
-function simplify_circuit(graph, node_start, node_end):
-    while number_of_nodes(graph) > 2:
-        for each node in graph:
-            if is_series_node(node):
-                merge_series(node)
-            if has_parallel_edges(node):
-                merge_parallel(node)
-    return edge_weight(node_start, node_end)
-
-function is_series_node(node):
-    return degree(node) == 2 and node not in [start, end]
-
-function merge_series(node):
-    neighbors = get_neighbors(node)
-    R1 = get_edge_weight(neighbors[0], node)
-    R2 = get_edge_weight(neighbors[1], node)
-    R_eq = R1 + R2
-    remove_node(node)
-    add_edge(neighbors[0], neighbors[1], weight=R_eq)
-
-function merge_parallel(node):
-    for each pair of parallel edges:
-        compute 1 / R_eq = sum(1 / R_i)
-        replace with one edge of weight R_eq
-```
 
 ![alt text](image.png)
 
