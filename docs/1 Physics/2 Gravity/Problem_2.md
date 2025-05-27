@@ -1,13 +1,13 @@
 # Problem 2
 # Escape Velocities and Cosmic Velocities
 
-## 🧠 Motivation
+##  Motivation
 
 Understanding the different levels of cosmic velocities is essential for space travel. These thresholds determine whether a spacecraft can orbit, escape a planet’s gravity, or leave a solar system. Mastering these concepts is foundational to planning satellite deployments, planetary missions, and interstellar exploration.
 
 ---
 
-## 🌌 Definitions of Cosmic Velocities
+##  Definitions of Cosmic Velocities
 
 ### 🔹 First Cosmic Velocity (Orbital Velocity)
 
@@ -53,56 +53,7 @@ We'll compute these velocities for:
 * Mars
 * Jupiter
 
-### 📊 Python Implementation
-
-```python
-import numpy as np
-import matplotlib.pyplot as plt
-
-# Constants
-G = 6.67430e-11  # m^3 kg^-1 s^-2
-
-# Celestial body data: (Mass [kg], Radius [m])
-bodies = {
-    "Earth": (5.972e24, 6.371e6),
-    "Mars": (6.417e23, 3.3895e6),
-    "Jupiter": (1.898e27, 6.9911e7),
-}
-
-# Calculate velocities
-def compute_velocities(mass, radius):
-    v1 = np.sqrt(G * mass / radius)
-    v2 = np.sqrt(2) * v1
-    return v1, v2
-
-# Prepare data for plotting
-labels, v1_list, v2_list = [], [], []
-
-for name, (mass, radius) in bodies.items():
-    v1, v2 = compute_velocities(mass, radius)
-    labels.append(name)
-    v1_list.append(v1 / 1000)  # Convert to km/s
-    v2_list.append(v2 / 1000)
-
-# Plot
-x = np.arange(len(labels))
-width = 0.35
-
-fig, ax = plt.subplots()
-ax.bar(x - width/2, v1_list, width, label='1st Cosmic Velocity (km/s)')
-ax.bar(x + width/2, v2_list, width, label='2nd Cosmic Velocity (km/s)')
-
-ax.set_ylabel('Velocity (km/s)')
-ax.set_title('Cosmic Velocities of Celestial Bodies')
-ax.set_xticks(x)
-ax.set_xticklabels(labels)
-ax.legend()
-plt.grid(True)
-plt.tight_layout()
-plt.show()
-```
-
----
+![alt text](image-1.png)
 
 ## 🚀 Third Cosmic Velocity Example
 
