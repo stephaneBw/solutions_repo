@@ -6,13 +6,13 @@
 <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <link href="../../../img/favicon.ico" rel="shortcut icon"/>
-<title>Problem 3 - Physics and Mathematics</title>
+<title>Problem 3: Trajectories of a Freely Released Payload Near Earth - Physics and Mathematics</title>
 <link href="../../../css/theme.css" rel="stylesheet"/>
 <link href="../../../css/theme_extra.css" rel="stylesheet"/>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" rel="stylesheet"/>
 <script>
         // Current page data
-        var mkdocs_page_name = "Problem 3";
+        var mkdocs_page_name = "Problem 3: Trajectories of a Freely Released Payload Near Earth";
         var mkdocs_page_input_path = "1 Physics/2 Gravity/Problem_3.md";
         var mkdocs_page_url = null;
       </script>
@@ -58,8 +58,20 @@
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../Problem_2/">Problem 2</a>
 </li>
-<li class="toctree-l2 current"><a class="reference internal current" href="#">Problem 3</a>
+<li class="toctree-l2 current"><a class="reference internal current" href="#">Problem 3: Trajectories of a Freely Released Payload Near Earth</a>
 <ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="#motivation">Motivation</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#task-objectives">⚖️ Task Objectives</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#physical-and-mathematical-background">🔄 Physical and Mathematical Background</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#analysis-of-results">🚀 Analysis of Results</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#real-world-relevance">🌌 Real-World Relevance</a>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#deliverables">📆 Deliverables</a>
+</li>
 </ul>
 </li>
 </ul>
@@ -163,7 +175,7 @@
 <li><a aria-label="Docs" class="icon icon-home" href="../../.."></a></li>
 <li class="breadcrumb-item">1 Physics</li>
 <li class="breadcrumb-item">2 Gravity</li>
-<li class="breadcrumb-item active">Problem 3</li>
+<li class="breadcrumb-item active">Problem 3: Trajectories of a Freely Released Payload Near Earth</li>
 <li class="wy-breadcrumbs-aside">
 </li>
 </ul>
@@ -171,7 +183,56 @@
 </div>
 <div class="document" itemscope="itemscope" itemtype="http://schema.org/Article" role="main">
 <div class="section" itemprop="articleBody">
-<h1 id="problem-3">Problem 3</h1>
+<h1 id="problem-3-trajectories-of-a-freely-released-payload-near-earth">Problem 3: Trajectories of a Freely Released Payload Near Earth</h1>
+<h2 id="motivation">Motivation</h2>
+<p>When an object is released from a moving rocket near Earth, its trajectory depends on initial conditions and gravitational forces. This scenario presents a rich problem, blending principles of orbital mechanics and numerical methods. Understanding the potential trajectories is vital for space missions, such as deploying payloads or returning objects to Earth.</p>
+<hr/>
+<h2 id="task-objectives">⚖️ Task Objectives</h2>
+<ul>
+<li>Analyze the possible trajectories (e.g., parabolic, hyperbolic, elliptical) of a payload released near Earth.</li>
+<li>Perform a numerical analysis to compute the path of the payload based on given initial conditions (position, velocity, and altitude).</li>
+<li>Discuss how these trajectories relate to orbital insertion, reentry, or escape scenarios.</li>
+<li>Develop a computational tool to simulate and visualize the motion of the payload under Earth's gravity, accounting for initial velocities and directions.</li>
+</ul>
+<hr/>
+<h2 id="physical-and-mathematical-background">🔄 Physical and Mathematical Background</h2>
+<p>We use Newton's Law of Gravitation:</p>
+<div class="arithmatex">\[
+\vec{F} = -\frac{G M m}{r^2} \hat{r}
+\]</div>
+<p>and Newton's Second Law:</p>
+<div class="arithmatex">\[
+\vec{F} = m \vec{a}
+\Rightarrow \vec{a} = -\frac{G M}{r^2} \hat{r}
+\]</div>
+<p>We solve this using numerical integration (e.g., Runge-Kutta or Euler method).</p>
+<hr/>
+<p>Trajectory of Payload near Earth
+<img alt="alt text" src="../image-2.png"/></p>
+<h2 id="analysis-of-results">🚀 Analysis of Results</h2>
+<p>Depending on initial velocity and altitude:</p>
+<ul>
+<li>If velocity &lt; orbital velocity: the object will fall back to Earth.</li>
+<li>If velocity = orbital velocity: the object will follow a circular orbit.</li>
+<li>If velocity &gt; orbital but &lt; escape: it will enter an elliptical orbit.</li>
+<li>If velocity = escape velocity: it will follow a parabolic trajectory.</li>
+<li>If velocity &gt; escape velocity: hyperbolic escape.</li>
+</ul>
+<hr/>
+<h2 id="real-world-relevance">🌌 Real-World Relevance</h2>
+<ul>
+<li><strong>Satellite Deployment</strong>: Accurate velocity ensures stable orbits.</li>
+<li><strong>Space Station Docking</strong>: Predicting relative trajectories.</li>
+<li><strong>Reentry and Recovery</strong>: Safe return paths for crew or payload.</li>
+<li><strong>Interplanetary Travel</strong>: Planning escape trajectories and transfer orbits.</li>
+</ul>
+<hr/>
+<h2 id="deliverables">📆 Deliverables</h2>
+<ul>
+<li>A Markdown document with Python script or notebook implementing the simulations.</li>
+<li>Detailed explanation of the subject.</li>
+<li>Graphical representations of orbital trajectories, escape velocities, and payload trajectories near Earth.</li>
+</ul>
 </div>
 </div><footer>
 <div aria-label="Footer Navigation" class="rst-footer-buttons" role="navigation">
