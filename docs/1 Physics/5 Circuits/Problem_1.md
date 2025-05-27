@@ -54,9 +54,3 @@ The goal is to reduce a resistor network graph to a single equivalent resistance
 
 ---
 
-## 📆 Deliverables
-
-* Full implementation in Python using `networkx`.
-* Example simulations and tests.
-* Pseudocode and algorithm description.
-* Efficiency analysis and suggestions for further enhancement.
