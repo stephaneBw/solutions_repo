@@ -46,15 +46,15 @@ The above equation can be solved by using the method of undetermined coefficient
 2. **Particular Solution** \( \theta_p(t) \):
    For the steady-state response to the external force, assuming a solution of the form:
 
-   \[
+   $$
    \theta_p(t) = B \cos(\omega t + \phi)
-   \]
+   $$
 
    We can substitute this into the differential equation to find \( B \) and \( \phi \):
 
-   \[
+   $$
    B = \frac{A}{\sqrt{(\frac{g}{L} - \omega^2)^2 + (2\beta \omega)^2}}
-   \]
+   $$
 
    Resonance occurs when the driving frequency \( \omega \) approaches the natural frequency \( \omega_0 \). At resonance, the amplitude of oscillation can become significantly larger, leading to increased energy absorption by the system.
 
