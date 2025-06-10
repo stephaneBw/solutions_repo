@@ -102,6 +102,13 @@ A computational model can simulate circular orbits and verify the relationship \
 ![alt text](image.png)
 Visual representation of circular orbits for different orbital radii corresponding to their periods derived from Kepler's Third Law. 
 
+### Effect of Changing Central Mass
+Plot TTT vs rrr for different central masses to see how mass affects orbital period.
+
+![alt text](image-3.png)
+
+The last graph visually illustrates Kepler's Third Law's implication: the orbital period increases with the radius of the orbit, and more massive central bodies lead to shorter orbital periods at the same radius. It highlights the fundamental gravitational relationship dictating celestial orbits.
+
 ## Extension to Elliptical Orbits
 
 While Kepler's Third Law is derived for circular orbits, it is also applicable to elliptical orbits. According to Kepler's First Law, planets move in elliptical orbits with the Sun at one focus. The relationship still holds, where the semi-major axis \( a \) of the ellipse replaces the radius \( r \):
