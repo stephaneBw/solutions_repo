@@ -37,6 +37,10 @@ We solve this using numerical integration (e.g., Runge-Kutta or Euler method).
 Trajectory of Payload near Earth
 ![alt text](image-2.png)
 
+3D Trajectory Visualization (Advanced)
+For a more comprehensive view, simulate the 3D trajectory and plot it.
+![alt text](image-5.png)
+
 ## 🚀 Analysis of Results
 
 Depending on initial velocity and altitude:
@@ -52,14 +56,12 @@ Depending on initial velocity and altitude:
 ## 🌌 Real-World Relevance
 
 * **Satellite Deployment**: Accurate velocity ensures stable orbits.
+![alt text](image-4.png)
+
 * **Space Station Docking**: Predicting relative trajectories.
 * **Reentry and Recovery**: Safe return paths for crew or payload.
 * **Interplanetary Travel**: Planning escape trajectories and transfer orbits.
 
 ---
 
-## 📆 Deliverables
 
-* A Markdown document with Python script or notebook implementing the simulations.
-* Detailed explanation of the subject.
-* Graphical representations of orbital trajectories, escape velocities, and payload trajectories near Earth.

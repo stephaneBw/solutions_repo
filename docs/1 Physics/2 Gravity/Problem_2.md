@@ -72,7 +72,6 @@ Where $M_{\odot}$ is the Sun’s mass and $r_{\text{orbit}}$ is Earth’s orbita
 ### 🚗 Satellite Launch
 
 First cosmic velocity is essential for establishing orbit.
-![alt text](image-5.png)
 
 ### 🌌 Planetary Missions
 
@@ -81,8 +80,3 @@ Second cosmic velocity needed to leave planet’s gravity and travel to other pl
 ### 🌟 Interstellar Travel
 
 Third cosmic velocity needed to break free from solar system—key for theoretical probes like Voyager or future missions to Alpha Centauri.
-
-# Some visualizations
-### 3D Trajectory Visualization (Advanced)
-For a more comprehensive view, simulate the 3D trajectory and plot it.
-![alt text](image-4.png)
