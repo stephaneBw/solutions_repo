@@ -108,25 +108,18 @@ where \(C\) is the number of crossings.
 
 ### 3. Visualization
 
-- Draw parallel lines.
-- Show multiple needles:
-  - Crossing lines in one color (e.g., green).
-  - Not crossing in another (e.g., blue).
-- Visualize the distribution of needle positions and angles.
-
----
-
-### 4. Analysis
-
-- Increasing the number of drops improves accuracy.
-- Convergence also roughly \(O(1/\sqrt{N})\).
-- The method is sensitive to the needle length relative to the line spacing.
-
----
-
-## Implementation Examples
-
 ### Circle Method (Buffon needle method)
 
 ![alt text](image-3.png)
 
+2. Basic Monte Carlo Estimation of Pi with Scatter Plot
+This script randomly generates points in a square and counts how many fall inside the inscribed circle, estimating π.
+![alt text](image-4.png)
+
+3. Plotting Convergence of Pi Estimate Over Number of Points
+This script runs the simulation multiple times and plots how the estimate approaches π as the number of points increases.
+![alt text](image-5.png)
+
+4. Visualizing the Geometric Interpretation
+This script draws the square and inscribed circle, showing a subset of points to illustrate the geometric probability.
+![alt text](image-6.png)

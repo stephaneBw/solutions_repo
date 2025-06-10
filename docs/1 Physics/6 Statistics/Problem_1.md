@@ -37,24 +37,6 @@ The Central Limit Theorem (CLT) is a cornerstone of probability and statistics, 
   - Quality control in manufacturing
   - Predicting outcomes in financial models
 
----
-
-## Deliverables
-
-- A Markdown document and Python scripts or notebooks implementing the simulations for various population distributions.
-- Plots illustrating the sampling distributions and their progression toward normality.
-- A discussion on the implications of the results and their connection to theoretical expectations.
-
----
-
-## Hints and Resources
-
-- Use Python libraries such as NumPy for random number generation and Matplotlib/Seaborn for visualization.
-- Begin with simple populations (e.g., uniform or normal) before exploring more complex distributions.
-- Ensure understanding of how to calculate and interpret the sample mean and variance.
-- This task encourages exploration of the Central Limit Theorem through computational experiments, deepening understanding of its significance in statistics.
-
----
 
 ## Example Python Code to Simulate CLT
 
