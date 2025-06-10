@@ -42,3 +42,7 @@ governs the motion of charged particles in electric and magnetic fields. It is f
 ### Python Simulation Script
 
 ![alt text](image.png)
+
+### Field Lines Visualization" and depicts the magnetic field lines in a three-dimensional space.
+This visualization aims to illustrate the structure of a magnetic field across a region of space. Specifically, it shows the direction and uniformity of the magnetic field vectors in a 3D grid, giving an intuitive understanding of how the magnetic field extends through space.
+![alt text](image-1.png)
