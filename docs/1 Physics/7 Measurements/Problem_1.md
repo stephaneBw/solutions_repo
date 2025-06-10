@@ -55,6 +55,7 @@ One of the simplest yet most profound methods to measure **_g_** is through the 
 $$
 T = \frac{\bar{T}_{10}}{10}
 $$
+
 $$
 \Delta T = \frac{\Delta \bar{T}_{10}}{10}
 $$
