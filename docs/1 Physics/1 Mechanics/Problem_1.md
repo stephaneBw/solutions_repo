@@ -31,35 +31,35 @@ The equations of motion are given by:
 
 To find the time of flight, we set \( y(t) = 0 \) when the projectile returns to the ground:
 
-\[
+$$
 0 = v_0 \sin(\theta) t - \frac{1}{2} g t^2
-\]
+$$
 
 Factoring out time \( t \), we have:
 
-\[
+$$
 t(v_0 \sin(\theta) - \frac{1}{2} g t) = 0
-\]
+$$
 
 This gives two solutions: \( t = 0 \) (launch time) or 
 
-\[
+$$
 t = \frac{2v_0 \sin(\theta)}{g} \quad \text{(time of flight)}
-\]
+$$
 
 ### Range as a Function of Angle
 
 The horizontal range \( R \) is the horizontal distance covered by the projectile when it returns to the launch height (i.e., \( y = 0 \)). Substituting \( t \) into the horizontal motion equation gives us:
 
-\[
+$$
 R = v_{0x} t = (v_0 \cos(\theta)) \left(\frac{2v_0 \sin(\theta)}{g}\right)
-\]
+$$
 
 Simplifying this, we get:
 
-\[
+$$
 R = \frac{v_0^2 \sin(2\theta)}{g}
-\]
+$$
 
 ### Family of Solutions
 
