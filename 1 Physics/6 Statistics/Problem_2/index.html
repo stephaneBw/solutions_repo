@@ -262,24 +262,25 @@ P = \frac{2L}{\pi d}
 <p>where <span class="arithmatex">\(C\)</span> is the number of crossings.</p>
 <hr/>
 <h3 id="3-visualization_1">3. Visualization</h3>
-<ul>
-<li>Draw parallel lines.</li>
-<li>Show multiple needles:</li>
-<li>Crossing lines in one color (e.g., green).</li>
-<li>Not crossing in another (e.g., blue).</li>
-<li>Visualize the distribution of needle positions and angles.</li>
-</ul>
-<hr/>
-<h3 id="4-analysis_1">4. Analysis</h3>
-<ul>
-<li>Increasing the number of drops improves accuracy.</li>
-<li>Convergence also roughly <span class="arithmatex">\(O(1/\sqrt{N})\)</span>.</li>
-<li>The method is sensitive to the needle length relative to the line spacing.</li>
-</ul>
-<hr/>
-<h2 id="implementation-examples">Implementation Examples</h2>
 <h3 id="circle-method-buffon-needle-method">Circle Method (Buffon needle method)</h3>
 <p><img alt="alt text" src="../image-3.png"/></p>
+<ol>
+<li>
+<p>Basic Monte Carlo Estimation of Pi with Scatter Plot
+This script randomly generates points in a square and counts how many fall inside the inscribed circle, estimating π.
+<img alt="alt text" src="../image-4.png"/></p>
+</li>
+<li>
+<p>Plotting Convergence of Pi Estimate Over Number of Points
+This script runs the simulation multiple times and plots how the estimate approaches π as the number of points increases.
+<img alt="alt text" src="../image-5.png"/></p>
+</li>
+<li>
+<p>Visualizing the Geometric Interpretation
+This script draws the square and inscribed circle, showing a subset of points to illustrate the geometric probability.
+<img alt="alt text" src="../image-6.png"/></p>
+</li>
+</ol>
 </div>
 </div><footer>
 <div aria-label="Footer Navigation" class="rst-footer-buttons" role="navigation">
