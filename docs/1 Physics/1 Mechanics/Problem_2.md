@@ -104,6 +104,13 @@ The following Python script simulates the motion of a forced damped pendulum and
 
 ![alt text](image-1.png)
 
+Visualize the phase space (angle vs. angular velocity) showing different behaviors.
+The graph is a phase space trajectory of the forced damped pendulum, plotting angular displacement (θ\thetaθ) against angular velocity (ω\omegaω).
+
+![alt text](image-5.png)
+
+This phase space plot helps visualize the nature of the pendulum's motion under forcing and damping. When the trajectory is smooth and closed, the system is in a regular, periodic state. When it appears tangled or fractal-like, the system is in a chaotic regime, illustrating the rich and complex behavior that can emerge from nonlinear dynamical systems like the forced damped pendulum.
+
 ### Limitations and Extensions
 
 This basic model assumes linear damping and periodic forcing. Potential extensions may include:
