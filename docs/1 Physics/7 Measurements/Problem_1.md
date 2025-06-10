@@ -28,9 +28,9 @@ One of the simplest yet most profound methods to measure **_g_** is through the 
 - Attach the mass to the string and suspend it from a stable support (e.g., a stand or doorframe).
 - Measure the **length of the pendulum** (_L_) from the suspension point to the **center of mass** of the weight.
 - Record the resolution of your measuring instrument and calculate the **length uncertainty**:  
-  \[
+  $$
   \Delta L = \frac{\text{resolution of tape/ruler}}{2}
-  \]
+  $$
 
 ---
 
@@ -41,9 +41,9 @@ One of the simplest yet most profound methods to measure **_g_** is through the 
 - Repeat this measurement **10 times** and record the values in a table.
 - Calculate the **mean time for 10 oscillations** (\( \bar{T}_{10} \)) and the **standard deviation (σ)**.
 - Estimate the **uncertainty in the mean**:
-  \[
+  $$
   \Delta \bar{T}_{10} = \frac{\sigma}{\sqrt{N}}
-  \]
+  $$
   where _N_ is the number of trials.
 
 ---
@@ -52,12 +52,12 @@ One of the simplest yet most profound methods to measure **_g_** is through the 
 
 ### 1. Compute the Period of One Oscillation
 
-\[
+$$
 T = \frac{\bar{T}_{10}}{10}
-\]
-\[
+$$
+$$
 \Delta T = \frac{\Delta \bar{T}_{10}}{10}
-\]
+$$
 
 ---
 
@@ -65,9 +65,9 @@ T = \frac{\bar{T}_{10}}{10}
 
 Using the pendulum formula:
 
-\[
+$$
 g = \frac{4\pi^2 L}{T^2}
-\]
+$$
 
 ---
 
@@ -75,9 +75,9 @@ g = \frac{4\pi^2 L}{T^2}
 
 Using uncertainty propagation for functions of multiple variables:
 
-\[
+$$
 \Delta g = g \cdot \sqrt{ \left( \frac{\Delta L}{L} \right)^2 + \left( 2 \cdot \frac{\Delta T}{T} \right)^2 }
-\]
+$$
 
 ---
 
@@ -100,9 +100,9 @@ Using uncertainty propagation for functions of multiple variables:
 | **Uncertainty in Mean \( \Delta \bar{T}_{10} \)** | **0.009 s** |
 
 **Measured Length**:  
-\[
+$$
 L = 1.000 \, \text{m}, \quad \Delta L = \pm 0.005 \, \text{m}
-\]
+$$
 
 ---
 

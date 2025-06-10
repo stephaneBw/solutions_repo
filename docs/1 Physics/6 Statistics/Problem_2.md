@@ -18,15 +18,15 @@ A classic application is estimating π through geometric probability.
 - Inside, inscribe a circle of radius 1.
 - When points are uniformly randomly generated within the square:
 
-\[
+$$
 P_{inside} = \frac{\text{Area of circle}}{\text{Area of square}} = \frac{\pi \times 1^2}{4} = \frac{\pi}{4}
-\]
+$$
 
 - Therefore, the estimate of π:
 
-\[
+$$
 \pi \approx 4 \times \frac{\text{Number of points inside}}{\text{Total number of points}}
-\]
+$$
 
 ---
 
@@ -36,9 +36,9 @@ P_{inside} = \frac{\text{Area of circle}}{\text{Area of square}} = \frac{\pi \ti
 - Count how many fall inside the circle, i.e., satisfy \(x^2 + y^2 \leq 1\).
 - Compute the estimate:
 
-\[
+$$
 \pi \approx 4 \times \frac{M}{N}
-\]
+$$
 
 ---
 
@@ -67,21 +67,21 @@ P_{inside} = \frac{\text{Area of circle}}{\text{Area of square}} = \frac{\pi \ti
 - Drop a needle of length \(L \leq d\) randomly.
 - Probability that the needle crosses a line:
 
-\[
+$$
 P = \frac{2L}{\pi d}
-\]
+$$
 
 - Rearranged to estimate π:
 
-\[
+$$
 \pi = \frac{2L}{d P}
-\]
+$$
 
 - For simplicity, set \(L = d = 1\):
 
-\[
+$$
 \pi \approx \frac{2}{P}
-\]
+$$
 
 ---
 
@@ -92,15 +92,15 @@ P = \frac{2L}{\pi d}
   - Angle \(\theta\) uniformly in \([0, \pi/2]\).
 - Check crossing condition:
 
-\[
+$$
 \text{Crosses} \quad \iff \quad \sin(\theta) \times \frac{L}{2} \geq x_{center}
-\]
+$$
 
 - Estimate π:
 
-\[
+$$
 \pi \approx \frac{2L \times N}{d \times C}
-\]
+$$
 
 where \(C\) is the number of crossings.
 
