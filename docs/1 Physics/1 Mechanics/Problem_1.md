@@ -20,14 +20,14 @@ The initial velocity can be resolved into its components:
 The equations of motion are given by:
 
 1. **Horizontal Motion**:
-   \[
+   $$
    x(t) = v_{0x} t = v_0 \cos(\theta) t
-   \]
+   $$
 
 2. **Vertical Motion**:
-   \[
+   $$
    y(t) = v_{0y} t - \frac{1}{2} g t^2 = v_0 \sin(\theta) t - \frac{1}{2} g t^2
-   \]
+   $$
 
 To find the time of flight, we set \( y(t) = 0 \) when the projectile returns to the ground:
 
