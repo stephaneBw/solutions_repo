@@ -8,9 +8,9 @@
 
 The motion of a forced damped pendulum can be expressed by the following second-order differential equation:
 
-\[
+$$
 \frac{d^2\theta}{dt^2} + 2\beta \frac{d\theta}{dt} + \frac{g}{L} \sin(\theta) = A \cos(\omega t)
-\]
+$$
 
 where:
 - \( \theta \) is the angular displacement,
@@ -22,24 +22,24 @@ where:
 
 For small-angle oscillations, we can use the approximation \( \sin(\theta) \approx \theta \), simplifying the equation to:
 
-\[
+$$
 \frac{d^2\theta}{dt^2} + 2\beta \frac{d\theta}{dt} + \frac{g}{L} \theta = A \cos(\omega t)
-\]
+$$
 
 ### Approximate Solutions for Small-Angle Oscillations
 
 The above equation can be solved by using the method of undetermined coefficients or Laplace transforms. The general solution can be expressed as a sum of the homogeneous solution and a particular solution:
 
-\[
+$$
 \theta(t) = \theta_h(t) + \theta_p(t)
-\]
+$$
 
 1. **Homogeneous Solution** \( \theta_h(t) \):
    The homogeneous part (ignoring the driving force) describes the damped oscillation:
 
-   \[
+   $$
    \theta_h(t) = e^{-\beta t}(C_1 \cos(\omega_0 t) + C_2 \sin(\omega_0 t))
-   \]
+   $$
 
    where \( \omega_0 = \sqrt{\frac{g}{L}} \) is the natural frequency of the pendulum.
 

@@ -5,9 +5,9 @@
 ### Motivation
 The Lorentz force, expressed as
 
-\[
+$$
 \mathbf{F} = q(\mathbf{E} + \mathbf{v} \times \mathbf{B})
-\]
+$$
 
 governs the motion of charged particles in electric and magnetic fields. It is foundational in fields like plasma physics, particle accelerators, and astrophysics. Simulations allow us to explore and visualize the complex trajectories that arise from this force.
 

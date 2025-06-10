@@ -23,9 +23,9 @@ In this task, we will analyze the interference patterns formed on a water surfac
 
 Let’s represent the wave emitted from each point source using the Single Disturbance equation. The displacement at position \( \mathbf{r} \) and time \( t \) from a point source can be described as:
 
-\[
+$$
 D(\mathbf{r}, t) = A \cos(k \cdot d + \omega t + \phi)
-\]
+$$
 
 where:
 - \( D(\mathbf{r}, t) \) = displacement at position \( \mathbf{r} \) and time \( t \)
@@ -39,9 +39,9 @@ where:
 
 For a regular polygon with \( N \) vertices, the total displacement at point \( \mathbf{r} \) at time \( t \) can be expressed as:
 
-\[
+$$
 D(\mathbf{r}, t) = \sum_{i=1}^{N} D_i(\mathbf{r}, t) = \sum_{i=1}^{N} A \cos(k \cdot d_i + \omega t + \phi_i)
-\]
+$$
 
 where \( D_i \) is the contribution from the \( i \)-th source.
 

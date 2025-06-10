@@ -12,9 +12,9 @@ The relationship between the square of the orbital period and the cube of the or
 
 For a small body in circular orbit around a larger mass, the gravitational force providing the necessary centripetal force can be written as:
 
-\[
+$$
 F = \frac{G M m}{r^2}
-\]
+$$
 
 where:
 - \( F \) is the gravitational force,
@@ -25,51 +25,51 @@ where:
 
 The centripetal force required for circular motion is given by:
 
-\[
+$$
 F = \frac{m v^2}{r}
-\]
+$$
 
 Setting the two expressions for force equal gives:
 
-\[
+$$
 \frac{G M m}{r^2} = \frac{m v^2}{r}
-\]
+$$
 
 Dividing both sides by \( m \) (mass of the orbiting body) and rearranging yields:
 
-\[
+$$
 v^2 = \frac{G M}{r}
-\]
+$$
 
 The orbital period \( T \) of the orbiting body is related to its linear velocity \( v \) and the circumference of the circle:
 
-\[
+$$
 v = \frac{2 \pi r}{T}
-\]
+$$
 
 Substituting this expression for \( v \) into the previous equation:
 
-\[
+$$
 \left(\frac{2 \pi r}{T}\right)^2 = \frac{G M}{r}
-\]
+$$
 
 Expanding this equation leads to:
 
-\[
+$$
 \frac{4 \pi^2 r^2}{T^2} = \frac{G M}{r}
-\]
+$$
 
 Multiplying both sides by \( r \) yields:
 
-\[
+$$
 \frac{4 \pi^2 r^3}{T^2} = G M
-\]
+$$
 
 Rearranging gives us Kepler's Third Law:
 
-\[
+$$
 T^2 = \frac{4 \pi^2}{G M} r^3
-\]
+$$
 
 This shows that the square of the orbital period \( T^2 \) is directly proportional to the cube of the orbital radius \( r^3 \).
 
@@ -79,9 +79,9 @@ This shows that the square of the orbital period \( T^2 \) is directly proportio
 
 1. **Mass Determination**: Kepler's Third Law allows astronomers to calculate the mass of a celestial body (like the Sun) by observing the orbits of its satellites. If the orbital parameters (radius and period) of a satellite are known, the mass of the central body can be found using:
 
-   \[
+   $$
    M = \frac{4 \pi^2 r^3}{G T^2}
-   \]
+   $$
 
 
 2. **Distances in Space**: By observing the orbital periods and distances of planets, we can infer distances in astronomical units (AU) and construct models of our solar system.
@@ -106,9 +106,9 @@ Visual representation of circular orbits for different orbital radii correspondi
 
 While Kepler's Third Law is derived for circular orbits, it is also applicable to elliptical orbits. According to Kepler's First Law, planets move in elliptical orbits with the Sun at one focus. The relationship still holds, where the semi-major axis \( a \) of the ellipse replaces the radius \( r \):
 
-\[
+$$
 T^2 = \frac{4 \pi^2}{G M} a^3
-\]
+$$
 
 This generalization allows for the prediction of various celestial bodies' behavior regardless of their orbital shape.
 
