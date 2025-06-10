@@ -94,6 +94,17 @@ Below is a Python script that simulates projectile motion and visualizes the ran
 ![alt text](image.png)
 The graph above shows the relationship between the range and angle of projection, highlighting the optimal angle at \( 45^\circ \).
 
+Effect of Varying Initial Velocity
+Visualize how the maximum range varies with different initial velocities at an optimal angle (~45°).
+![alt text](image-2.png)
+
+Impact of Launch Height
+Show how launching from different heights affects the trajectory and impact point.
+![alt text](image-3.png)
+
+A 3D surface plot to visualize how range depends on both initial velocity and launch angle.
+![alt text](image-4.png)
+
 ### Limitations and Suggestions for Improvement
 
 This model assumes:
